@@ -56,7 +56,7 @@ public class MyClass {
 		// FILE UPLOAD
 
 		// WebElement uploadElement = driver.findElement(By.id("RESULT_FileUpload-10"));
-		// uploadElement.sendKeys("C:\\Users\\P3503647\\Desktop\\upload.txt");
+		// uploadElement.sendKeys(System.getProperty("user.dir")+"\\src\\newpackage\\upload.txt");
 
 		// FORM SUBMIT
 
