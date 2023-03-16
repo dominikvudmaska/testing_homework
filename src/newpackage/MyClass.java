@@ -152,9 +152,9 @@ public class MyClass {
 		WebElement slider = driver.findElement(By.xpath("//*[@id=\"slider\"]"));
 		int sliderWidth = slider.getSize().getWidth();
 		WebElement sliderHandle = driver.findElement(By.xpath("//*[@id=\"slider\"]/span"));
-        Actions move = new Actions(driver);
-        Action action = (Action) move.dragAndDropBy(sliderHandle, sliderWidth/2, 0).build();
-        action.perform();
+        	Actions move = new Actions(driver);
+        	Action action = (Action) move.dragAndDropBy(sliderHandle, sliderWidth/2, 0).build();
+        	action.perform();
 
 	}
 
